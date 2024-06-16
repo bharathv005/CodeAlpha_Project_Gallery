@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <div class="super">
+        <h5>Image Gallery of <br> BHARATH </h5>
+    </div>
+
+    <div class="full-img" id="fullimgbox">
+        <img src="images/images1.jpg" id="fullimg">
+        <span onclick="closefullimg()">x</span>
+    </div>
+    <div class="img-galary">
+        <img src="images/images1.jpg" onclick="openfullimg(this.src)">
+        <img src="images/images2.jpg" onclick="openfullimg(this.src)">
+        <img src="images/images3.jpg" onclick="openfullimg(this.src)">
+        <img src="images/images4.jpg" onclick="openfullimg(this.src)">
+        <img src="images/images5.jpg" onclick="openfullimg(this.src)">
+        <img src="images/images6.jpg" onclick="openfullimg(this.src)">
+        
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
